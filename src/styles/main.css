@@ -586,3 +586,11 @@ html {
   @apply text-sm text-(--text-secondary) text-center mb-2;
 }
 
+/* ── 导航栏菜单项 + 文章标题 → HYWenHei ── */
+#navbar a,
+.post-card-title,
+.banner-post-title,
+.banner-page-title-text {
+  font-family: var(--font-hywenhei), sans-serif;
+}
+

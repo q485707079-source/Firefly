@@ -79,7 +79,7 @@ export const fontConfig: FontSelectionConfig = {
 
 	bannerTitleFont: "--font-hywenhei",
 	bannerSubtitleFont: "--font-inter",
-	navbarTitleFont: "",
+	navbarTitleFont: "--font-hywenhei",
 	codeFont: "--font-jetbrains-mono",
 
 	subsetFonts: {
