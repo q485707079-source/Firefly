@@ -38,6 +38,15 @@ export const fontsList: FontDefinition[] = [
 		],
 	},
 	{
+		name: "Noto Sans SC",
+		cssVariable: "--font-noto-sans-sc",
+		provider: "fontsource",
+		weights: ["300", "400", "500", "700"],
+		styles: ["normal"],
+		subsets: ["latin", "chinese-simplified"],
+		fallbacks: ["sans-serif"],
+	},
+	{
 		name: "HYWenHei",
 		cssVariable: "--font-hywenhei",
 		provider: "local",
@@ -66,9 +75,9 @@ export const fontsList: FontDefinition[] = [
 
 export const fontConfig: FontSelectionConfig = {
 	enable: true,
-	selected: ["--font-hywenhei"],
+	selected: ["--font-noto-sans-sc"],
 
-	bannerTitleFont: "--font-zen-maru-gothic",
+	bannerTitleFont: "--font-hywenhei",
 	bannerSubtitleFont: "--font-inter",
 	navbarTitleFont: "",
 	codeFont: "--font-jetbrains-mono",
