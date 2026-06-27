@@ -10,7 +10,7 @@ export const sakuraConfig: SakuraConfig = {
 	switchable: true,
 
 	// 樱花数量
-	sakuraNum: 42,
+	sakuraNum: 32,
 
 	// 樱花越界限制次数，-1为无限循环
 	limitTimes: -1,
@@ -26,7 +26,7 @@ export const sakuraConfig: SakuraConfig = {
 	// 樱花不透明度
 	opacity: {
 		// 樱花最小不透明度
-		min: 0.4,
+		min: 0.3,
 		// 樱花最大不透明度
 		max: 0.9,
 	},
@@ -43,14 +43,14 @@ export const sakuraConfig: SakuraConfig = {
 		// 垂直移动
 		vertical: {
 			// 垂直移动速度最小值
-			min: 0.5,
+			min: 0.7,
 			// 垂直移动速度最大值
-			max: 1.2,
+			max: 1.7,
 		},
 		// 旋转速度
 		rotation: 0.01,
 		// 消失速度，不应大于最小不透明度
-		fadeSpeed: 0.06,
+		fadeSpeed: 0.03,
 	},
 
 	// 层级，确保樱花在合适的层级显示
