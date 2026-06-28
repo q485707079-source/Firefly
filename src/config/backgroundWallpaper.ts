@@ -81,17 +81,20 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "Lovely Shiori，kind Shiori，my Shiori！",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"喜欢是一瞬间的沦陷，爱是一辈子的执念。",
+				"给不了你太多感动，但我想陪你很久很久。",
+				"以后，我们的心脏同频，至死不渝。",
+				"时间并不是创可贴，我想起某些瞬间的时候还是会难过。",
+				"或许我们不必细数过往。",
+				"可惜爱不是三言两语，我也不再是十六七岁。",
+				"等待会让灵魂锈迹斑斑，却也是光阴为感情颁发的勋章。",
+				"我不知道该以怎么样的身份去面对这场错误的恋情，即便我们二人好似都不在乎礼花后的一片狼藉。",
+				"人无法同时拥有青春和对青春的感受。",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
